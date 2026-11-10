@@ -20,7 +20,7 @@ The system discovers candidates, runs **six independent checks**, applies a **fa
 
 ---
 
-## ⚡ Pipeline
+## Pipeline
 
 ```text
         DEX Screener
@@ -75,7 +75,7 @@ The system discovers candidates, runs **six independent checks**, applies a **fa
 
 ---
 
-## 🔍 The Six Checks
+## The Six Checks
 
 ### 01 — Mint & Freeze Authority
 Verifies the token mint account and blocks when critical authority status cannot be verified.
@@ -99,7 +99,7 @@ The result is treated as a **risk signal**, not proof of intent.
 
 ---
 
-## 🛡️ Final Safety Gate
+## Final Safety Gate
 
 Solstice uses a **fail-closed** final gate.
 
@@ -120,7 +120,7 @@ Missing or unknown critical results are not treated as passes.
 
 ---
 
-## 🚀 Live Trading
+## Live Trading
 
 Solstice includes an **optional live-trading layer**.
 
@@ -168,13 +168,13 @@ solana-meme-coin-sniper/
 
 ---
 
-## 🧰 Stack
+## Stack
 
 **Python** · **Solana RPC / Helius** · **DEX Screener** · **RugCheck** · **Jupiter** · **Google Colab** · **pytest**
 
 ---
 
-## 🔐 Configuration
+## Configuration
 
 For Colab, keep credentials in **Secrets** rather than notebook cells or GitHub.
 
@@ -188,7 +188,7 @@ The private key should belong to a wallet dedicated to the trading application r
 
 ---
 
-## ▶️ Running Solstice
+## Running Solstice
 
 Open:
 
@@ -212,7 +212,7 @@ For development and testing, keep live execution disabled until the complete pip
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the repository tests with:
 
@@ -224,7 +224,7 @@ The test suite focuses on safety-gate behavior and fail-closed logic.
 
 ---
 
-## ✧ Design Philosophy
+## Design Philosophy
 
 Solstice is built around a simple idea:
 
@@ -238,7 +238,7 @@ The goal is to **systematically eliminate as many identifiable risks as possible
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Solstice is a research, educational, and software-engineering project.
 
