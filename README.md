@@ -141,7 +141,7 @@ Never commit a private key, API key, or wallet credential to GitHub.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 solana-meme-coin-sniper/
